@@ -1,0 +1,66 @@
+body{
+    font-size: 18px;
+    font-family: "Poppins", "Open Sans"
+}
+
+header{
+    background: url(../images/bg-hero-desktop.svg)
+}
+
+.blue-overlay{
+    background-color: rgba(237, 251, 254, 0.5)
+}
+
+.build-community{
+    bottom: -6em;
+    border-radius: 1em;
+}
+
+footer .social a{
+    border-radius: 50%;
+    border: 1px solid white;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    width: 54px;
+}
+
+footer .copy-right{
+    font-size: 15px;
+}
+
+.bg-pink{
+    background: hsl(322, 100%, 66%);
+}
+
+.bg-pale-cyan{
+    background: hsl(193, 100%, 9%);
+}
+
+@media screen and (max-width: 576px)
+{
+    body{
+        font-size: 14px;
+    }
+
+    .navbar-brand img{
+        width: 40vw;
+    }
+
+    .build-community *{
+        font-size: 14px;
+    }
+
+    .build-community {
+        bottom: -9em
+    }
+
+    footer .social a{
+        height: 22px;
+        line-height: 22px;
+        width: 22px;
+    }
+   
+}
